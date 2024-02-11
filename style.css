@@ -1,14 +1,39 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    /* box-sizing: border-box; */
 }
 
+#etchASketchFrame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: bisque;
+    
+    
+}
+
+#sketchAreaContainer {
+    display: flex;
+    background-color: antiquewhite;
+    border: solid 1px aliceblue;
+}
 #sketchArea {
     display: flex;
     flex-wrap: wrap;
 }
 
 .gridCell {
-    border: solid 1px black;
+    border: solid 1px aliceblue;
+}
+
+/* .gridCell:hover {
+    background: black;
+} */
+
+.filled {
+    background-color: aqua;
+    border: solid 1px aliceblue;
+
 }
