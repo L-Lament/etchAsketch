@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: bisque;
+    background-color: aliceblue;
     
     
 }
@@ -17,23 +17,21 @@
 #sketchAreaContainer {
     display: flex;
     background-color: antiquewhite;
-    border: solid 1px aliceblue;
+    border: solid 1px black;
 }
 #sketchArea {
     display: flex;
     flex-wrap: wrap;
 }
 
-.gridCell {
+#cell {
     border: solid 1px aliceblue;
 }
 
-/* .gridCell:hover {
-    background: black;
-} */
+
 
 .filled {
-    background-color: aqua;
+    background-color: black;
     border: solid 1px aliceblue;
 
 }
